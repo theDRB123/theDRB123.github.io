@@ -27,8 +27,16 @@ twitter_username: drrrrrrrr186
 github_username:  theDRB123
 
 # Build settings
-theme: minima
+# theme: minima
+# _config.yml
+remote_theme: jekyll/minima
+minima:
+  skin: dark
+# header_pages:
+#   - about.md
+#   - portfolio.md
 plugins:
+- jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
